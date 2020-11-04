@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuzz-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html",
+      "text"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
