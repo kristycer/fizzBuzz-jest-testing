@@ -16,4 +16,10 @@ describe('FizzBuzz', () => {
   test('it returns "Buzz" for number 10', () => {
     expect(fizzBuzz(10)).toEqual('Buzz')
   })
+  test('it returns "FizzBuzz" for number 15', () => {
+    expect(fizzBuzz(15)).toEqual('FizzBuzz')
+  })
+  //   test('it has numbers within a range 1-100', () => {
+  //     expect(fizzBuzz(15)).toEqual('FizzBuzz')
+  //   })
 })
