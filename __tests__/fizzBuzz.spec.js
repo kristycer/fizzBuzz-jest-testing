@@ -10,4 +10,10 @@ describe('FizzBuzz', () => {
   test('it returns "Fizz" for number 6', () => {
     expect(fizzBuzz(6)).toEqual('Fizz')
   })
+  test('it returns "Buzz" for number 5', () => {
+    expect(fizzBuzz(5)).toEqual('Buzz')
+  })
+  test('it returns "Buzz" for number 10', () => {
+    expect(fizzBuzz(10)).toEqual('Buzz')
+  })
 })
